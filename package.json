@@ -1,0 +1,21 @@
+{
+  "name": "htmx-todo",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "bun-types": "latest",
+    "typed-html": "^3.0.1"
+  },
+  "scripts": {
+    "start": "bun --watch index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.6.0",
+    "classnames": "^2.3.2",
+    "elysia": "^0.6.17"
+  }
+}
